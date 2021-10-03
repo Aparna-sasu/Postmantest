@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "8d531f05-1a8a-40bb-a9cc-1fea00dd104b",
+		"name": "StudentsData",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get_Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4dbd9b6d-9a5b-4b30-a413-517fbc6b9619",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4ad5febd-bb4c-4408-8d11-f783c001ddc0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "e359396d-8f37-4a0e-8038-c6493475c238",
+			"key": "url",
+			"value": ""
+		}
+	],
+	"protocolProfileBehavior": {}
+}
